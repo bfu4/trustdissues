@@ -1,0 +1,21 @@
+Executable=/Users/bfu4/files/libtrustd/bigsur/trustd
+Identifier=com.apple.trustd
+Format=Mach-O universal (x86_64 arm64e)
+CodeDirectory v=20100 size=4705 flags=0x0(none) hashes=140+5 location=embedded
+Platform identifier=11
+Hash type=sha256 size=32
+CandidateCDHash sha256=dc15a3cccfe1fc1dc01b0a63209452a7ecfaec0f
+CandidateCDHashFull sha256=dc15a3cccfe1fc1dc01b0a63209452a7ecfaec0fb697c921d0c8e454fb9be873
+Hash choices=sha256
+CMSDigest=dc15a3cccfe1fc1dc01b0a63209452a7ecfaec0fb697c921d0c8e454fb9be873
+CMSDigestType=2
+CDHash=dc15a3cccfe1fc1dc01b0a63209452a7ecfaec0f
+Signature size=4577
+Authority=Software Signing
+Authority=Apple Code Signing Certification Authority
+Authority=Apple Root CA
+Signed Time=Oct 31, 2020 at 7:38:45 AM
+Info.plist=not bound
+TeamIdentifier=not set
+Sealed Resources=none
+Internal requirements count=1 size=64

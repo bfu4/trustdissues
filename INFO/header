@@ -1,0 +1,30 @@
+;---------- LLVM ------------;
+
+magic : 0x1000019c0 = 0xe5894855
+cputype : 0x1000019c4 = 0x56415741
+cpusubtype : 0x1000019c8 = 0x54415541
+filetype : 0x1000019cc = filetype (enum mach0_header_filetype) = 0xec814853
+ncmds : 0x1000019d0 = 1096
+sizeofcmds : 0x1000019d4 = 1106676041
+flags : 0x1000019d8 = flags (bitfield) = 0x8b48ff89 : MH_NOUNDEFS | MH_BINDATLOAD | MH_TWOLEVEL | MH_FORCE_FLAT | MH_NOMULTIDEFS | MH_NOFIXPREBINDING | MH_PREBINDABLE | MH_ALLMODSBOUND | MH_SUBSECTIONS_VIA_SYMBOLS | MH_CANONICAL | MH_WEAK_DEFINES | MH_SETUID_SAFE | MH_DEAD_STRIPPABLE_DYLIB | MH_NO_HEAP_EXECUTION | 0x2000000 | 0x8000000 | 0x80000000
+
+;----------- lipo ------------;
+
++ architectures: x86_64 , arm64e
+
+;--------- MACHOVIEW ---------;
+
+since big sur's supports both architectures, insert both
+fat and macho64 header
+
++ FAT HEADER
+   ~ magic number
+      - offset: 00000000
+      - data: BEBAFECA
+      - value: FAT_CIGAM
+   ~ 2 architectures
++ MACH64 HEADER
+   ~ magic number
+      - offset: 00094000
+      - data: FEEDFACF (64-bit binary)
+      - value: MH_MAGIC_64 

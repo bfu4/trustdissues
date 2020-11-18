@@ -1,0 +1,16 @@
+pf.mach0_uuid_command                 pf.mach0_header                       
+pf.mach0_source_version_command       pf.mach0_section64                    
+pf.mach0_load_dylinker_command        pf.mach0_encryption_info_command      
+pf.mach0_build_version_command        pf.mach0_dylib_command                
+pf.mach0_entry_point_command          pf.mach0_rpath_command                
+pf.mach0_dyld_info_only_command       pf.mach0_unixthread_command           
+pf.mach0_encryption_info64_command    pf.mach0_id_dylinker_command          
+pf.mach0_data_in_code_command         pf.mach0_segment64                    
+pf.mach0_code_signature_command       pf.mach0_function_starts_command      
+pf.mach0_segment                      pf.mach0_id_dylib_command             
+pf.mach0_segment_split_info_command   pf.mach0_dylib                        
+pf.mach0_version_min_command          pf.mach0_build_version_tool           
+pf.mach0_section                      pf.mach0_dysymtab_command             
+pf.mach0_symtab_command               
+
+pfo macho
