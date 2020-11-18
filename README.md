@@ -16,7 +16,7 @@ this repository contains a build script and patch files. enjoy!
 DISCLAIMER: this is untested until i can get myself write access on this 
 filesystem again. sigh. big sur is hard
 
-![gist](https://gist.github.com/bfu4/532be7173aef3c94e34bcd649e207641)
+[gist](https://gist.github.com/bfu4/532be7173aef3c94e34bcd649e207641)
 
 -------------------------------------------------------------------
 
