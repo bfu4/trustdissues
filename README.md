@@ -17,7 +17,7 @@ this repository contains a build script and patch files. enjoy!
 
 # applying the patches
 
-YOU WILL NEED: bsdiff (for bspatch) and the xcode developer tools. however, those are only needed for a lot of the debugging to make sure the architectures are correct. i would still recommend having them though.
+YOU WILL NEED: bsdiff (for bspatch) and the xcode developer tools. the xcode dev tools are needed for the debugging, and for lipo (VERY IMPORTANT FOR THE UNIVERSAL BINARY)
 
 # my experience / a diy section
 
@@ -30,6 +30,7 @@ i like reading source code and deciphering from decompiled code (although i migh
 * xxd
 * nm
 * bsdiff / bspatch
+* lipi
 
 the binary's path on the mac OS system is: `/usr/libexec/trustd`
 
