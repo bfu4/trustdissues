@@ -2,6 +2,8 @@
 
 *in concept, patches trustd to not contact valid.apple.com*
 
+GIST: [trustdissues](https://gist.github.com/bfu4/532be7173aef3c94e34bcd649e207641)
+
 in light of recent events, when apple's oscp server went bye-bye, some people got scared:
 
 "so apple knows what im opening?"
@@ -35,8 +37,6 @@ this was actually a lot of fun, and by the time i can get testing working, i hop
 
 DISCLAIMER: this is untested until i can get myself write access on this 
 filesystem again. sigh. big sur is hard
-
-[gist](https://gist.github.com/bfu4/532be7173aef3c94e34bcd649e207641)
 
 -------------------------------------------------------------------
 
