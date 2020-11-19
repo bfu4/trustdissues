@@ -32,6 +32,7 @@ i like reading source code and deciphering from decompiled code (although i migh
 * bsdiff / bspatch
 
 the binary's path on the mac OS system is: `/usr/libexec/trustd`
+
 this was actually a lot of fun, and by the time i can get testing working, i hope this will be effective / i will get it to be effective. lol.
 
 
