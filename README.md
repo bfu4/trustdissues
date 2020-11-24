@@ -13,6 +13,9 @@ and more questions like that.
 this is a [CONCEPTUAL] "fix" for this, where instead of trying to auth with
 `valid.apple.com`, it will try to communicate with `aalid.apple.com`, which goes nowhere. lol.
 
+LETS KEEP IN MIND, THESE PATCHES DO NOT WORK, AND APPLYING THEM WILL FORCE A REINSTALL OF SYSTEM FILES. PLEASE READ THE GIST FOR MORE INFORMATION!!!!
+THE GIST KEEPS TRACK OF ALL ATTEMPTS AND ASSUMPTIONS IN CHRONOLOGICAL ORDER, AND IS A RUN-DOWN OF MOST OF THIS PROJECT.
+
 this repository contains a build script and patch files. enjoy!
 
 # applying the patches
